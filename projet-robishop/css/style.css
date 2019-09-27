@@ -1,0 +1,21 @@
+
+.header-main {
+background-image: url("../img/r.jpg");
+}
+
+.navbar{
+  background-color:  hsla(219, 73%, 20%, 0.878);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav-link {
+  color: white ;
+}
+.p {color: blue;
+}
+
+.row{
+}
+.jumbotron{
+  background-color: hsla(219, 73%, 20%, 0.878);
+  line-height:5px;
+}
