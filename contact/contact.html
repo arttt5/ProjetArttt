@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ARTT</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../bootstrap.min.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                    
+
+                <!-- lien pour se diriger sur le FAQ   -->
+                <p><span class="faq">Vous ne trouvez pas la quetion, n'hésitez pas à cliquer sur le lien <a href="#"> FAQ
+                        </a>pour nous contacter. </span></p>
+                <!-- lien pour suivre le colis -->
+                <p><span class="suivi_colis">Vous avez recu votre n° de suivi mais vous n'avez pas encore votre colis,
+                        cliquez sur <a href="#">suivre ma commande.</a></span></p>
+                <!-- formulaire lié à la demande su client  -->
+                <p><span> Si aucun choix ne vous concerne, vous pouvez nous contacter via le formulaire ci-dessous :
+                    </span></p>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    
+
+    <div class="card">
+        <div class="card-body">
+            <div class="form-row col-md-4">
+                <label for="nom"> Votre Nom : </label>
+                <input type="text" class="form-control" placeholder="Nom de famille" required>
+            </div>
+
+            <div class="col-md-4">
+                <label for="prénom"> Votre prénom : </label>
+                <input type="text" class="form-control" placeholder="Prénom" required>
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="portable"> Portable : </label>
+                <input type="tel" class="form-control" placeholder="06...." required>
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="email"> Votre mail :</label>
+                <input type="email" class="form-control" placeholder="email@gmail.com" required>
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="services">Choisissez le service : </label required>
+                <select class="form-control" id="service">
+                    <option>Achat</option>
+                    <option>Vente</option>
+                    <option>logistique</option>
+                    <option>autres</option>
+                </select>
+            </div>
+
+            <div class="md-form col-md-4">
+                <label for="form-Subject">Subject</label>
+                <i class="fas fa-tag prefix grey-text"></i>
+                <textarea class="form-control md-textarea" rows="3" required></textarea>
+
+            </div>
+
+            <div class="text-center mt-4">
+                <button class="btn btn-light-blue" name="contactEnvoyer" type="submit">ENVOYER</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>
