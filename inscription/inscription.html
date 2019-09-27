@@ -1,16 +1,53 @@
-<div class="">
-<form action="contact.php" method="POST">
+<link rel="stylesheet" href="../bootstrap.min.css">
+<link rel="stylesheet" href="inscription.css">
+<div class="container">
+    
+
+        <form action="contact.php" method="POST">
+                <div class="form-row">
+            <label for="pseudo">Choisissez un pseudo</label>
+            <input type="text" name="pseudo" required value="">
+                </div>
+    
+    <div class="form-row">
+        <label for="mdp">Choisissez un mot de passe</label>
+        <input type="password" name="mdp" required >
+    </div>
+    <div class="form-row">
+        <label for="mdp_c">Confirmez le mot de passe</label>
+        <input type="password" name="mdp_c" required>
+    </div>
+    <div class="form-row">
+        <label for="username">Votre nom</label>
+        <input type="text" name="username" required>
+    </div>
+    <div class="form-row">
+        <label for="userfname">Votre prenom</label>
+        <input type="text" name="userfname" required>
+    </div>
+
+    <div class="form-row">
+        <label for="adresse">N° et nom de rue</label>
+        <input type="text" name="adresse" required>
+    </div>
+
+    <div class="form-row">
+        <label for="codepostal">Code Postal</label>
+        <input type="number" name="codepoastal" required>
+    </div>
+    <div class="form-row">
+        <label for="ville">Ville</label>
+        <input type="text" name="ville" required>
+    </div>
+
+
+    <button class="btn btn-dark" type="submit">INSCRIPTION</button>
+    <button class="btn btn-dark" type="reset">EFFACER</button>
 
 
 
 
 
-
-
-
-
-
-
-
-</form>
+    </form>
+</div>
 </div>
