@@ -1,0 +1,11 @@
+.connect-admin{
+    width: 90%;
+    background-color: rgba(53, 50, 190, 0.24);
+    color: rgba(6, 34, 58, 0.87);
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.titre h4 , .titre p{
+    text-align: center;
+}
