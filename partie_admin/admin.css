@@ -9,3 +9,27 @@
 .titre h4 , .titre p{
     text-align: center;
 }
+
+.option{
+    width: 90%;
+    background-color: rgba(52, 50, 190, 0.596);
+    color: rgba(6, 34, 58, 0.87);
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 40%;
+    height: 10%;
+    padding: 3%;
+}
+a{
+    color: brown;
+    background-color: beige;
+    border: 2px solid black;
+    padding: 5px;
+    margin: auto;
+    border-radius: 5px;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+    background-color: chartreuse;
+}
