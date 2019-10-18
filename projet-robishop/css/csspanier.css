@@ -1,0 +1,98 @@
+
+.padding-y {
+    padding-top: 32px;
+    padding-bottom: 32px; }
+
+  .padding-y-lg {
+    padding-top: 60px;
+    padding-bottom: 50px; }
+    
+  .padding-y-sm {
+    padding-top: 16px;
+    padding-bottom: 16px; }
+  
+
+.img-xs, .img-sm, .img-md, .img-lg {
+    -o-object-fit: cover;
+       object-fit: cover; }
+  
+  .img-xs {
+    width: 40px;
+    height: 40px; }
+  
+  .img-sm {
+    width: 80px;
+    height: 80px; }
+  
+  .img-md {
+    width: 160px;
+    height: 160px; }
+  
+  .img-lg {
+    width: 400px;
+    height: 300px; }
+  
+  
+  /* --------------------- titles ---------------------- */
+  .section-heading {
+    margin-bottom: 20px;
+    margin-top: 10px; }
+  
+  .title-section {
+    padding-right: 15px; }
+  
+  .title-text {
+    margin-top: 45px;
+    margin-bottom: 20px; }
+  
+  .title-category {
+    margin: 0;
+    padding: 1rem 1rem; }
+  
+  .title-bg {
+    padding: 7px 15px;
+    color: #fff; }
+  
+  .font-title {
+    font-family: "Roboto", sans-serif; }
+  
+  .text-lg {
+    font-size: 125%; }
+  
+  .word-limit {
+    height: 40px;
+    line-height: 20px; }
+  
+  
+  /* --------- description list --------*/
+  [class*="dlist-"] {
+    margin-bottom: 5px; }
+    [class*="dlist-"] dd {
+      margin-bottom: 0; }
+  
+      .dlist-inline dt, .dlist-inline dd {
+        display: inline-block; }
+      
+      .dlist-align dt {
+        width: 90px;
+        float: left;
+        word-wrap: break-word; }
+      .dlist-align dd {
+        margin-left: 120px;
+        vertical-align: baseline; }
+  /* ====================== shopping-cart ==================== */
+  
+  .shopping-cart-wrap .price {
+    color: #007bff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 5px;
+    display: block; }
+  
+  
+  /* --------- media element --------*/
+  .media .img-wrap {
+    margin-right: 1rem; }
+  
+  
+  

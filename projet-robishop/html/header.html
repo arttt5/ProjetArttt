@@ -6,118 +6,79 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<title>Smart Robishop</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<title>Robishop</title>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-<link rel="icon" type="image/x-icon" href="../img/rb.png">
-<link rel="stylesheet" href="../css/style.css">
+<link rel="icon" type="image/x-icon" href="../img/r.png">
+<link rel="stylesheet" href="../css/stylehead.css">
 </head>
 
 <body>
-
-<header class="section-header">
-<section class="header-main">
-	<div class="container-fluid">
-
-<div class="row align-items-center">
-	<div class="col-lg-3">
-	<div class="brand-wrap">
-		<img class="logo float-left img-fluid mx-auto d-block" src="../img/rb.png" href="header.html">
-	</div>
-    </div>
-
-	<div class="col-lg-6 col-sm-6">
-		<form action="#" class="search-wrap">
-			<div class="input-group">
-			    <input type="text" class="form-control " placeholder="Rechercher">
-			    <div class="input-group-append">
-			      <button class="btn btn-light btn-sm" type="submit">
-			        <i class="fa fa-search"></i>
-			      </button>
-			    </div>
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light static-top">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="#">
+	          <img src="../img/m.png" alt="">
+	        </a>
+					<div class="container-fluid">
+		  <div class="btn-group">
+		    <button type="button" class="btn btn-color text-white">Ordinateur</button>
+		    <button type="button" class="btn btn-color dropdown-toggle dropdown-toggle-split text-white" data-toggle="dropdown">
+		    </button>
+		    <div class="dropdown-menu">
+		      <a class="dropdown-item" href="#">Ordinateur portable</a>
+		      <a class="dropdown-item" href="#">Ordinateur fixe</a>
+					<a class="dropdown-item" href="#">Apple</a>
 		    </div>
-		</form>
-    </div>
+		  </div>
+
+		  <div class="btn-group">
+		    <button type="button" class="btn btn-color text-white">Son</button>
+		    <button type="button" class="btn btn-color dropdown-toggle dropdown-toggle-split text-white" data-toggle="dropdown">
+		    </button>
+		    <div class="dropdown-menu">
+		      <a class="dropdown-item" href="#">Son numérique</a>
+		      <a class="dropdown-item" href="#">Casque</a>
+					<a class="dropdown-item" href="#">Ensemble bluetooth</a>
+		    </div>
+		  </div>
+
+		  <div class="btn-group">
+		    <button type="button" class="btn btn-color text-white">Périphériques</button>
+		    <button type="button" class="btn btn-color dropdown-toggle dropdown-toggle-split text-white" data-toggle="dropdown">
+		    </button>
+		    <div class="dropdown-menu">
+		      <a class="dropdown-item" href="#">Ecran pc</a>
+		      <a class="dropdown-item" href="#">Clavier souris</a>
+					<a class="dropdown-item" href="#">Imprimantes</a>
+					<a class="dropdown-item" href="#">Cles USB</a>
+					<a class="dropdown-item" href="#">Disque dur</a>
+					<a class="dropdown-item" href="#">Onduleur</a>
+		    </div>
+		  </div>
+
+      <button type="button" class="btn btn-color text-white">Besoin d'aide</button>
 
 
-	<div class="col-lg-3 col-sm-6">
-            <div class="btn-group" role="group" >
-                    <button type="button" class="btn btn-warning "> <i class="fas fa-user-astronaut fa-lg"></i> </button>
-                    <button type="button" class="btn btn-info "> <i class="far fa-heart fa-lg"></i> </button>
-                    <button type="button" class="btn btn-primary "> <i class="fas fa-shopping-cart fa-lg"></i> </button>
 
-    </div>
-
-</div>
-	</div>
-</section>
+		   <form class="btn-group " action="/action_page.php">
+		     <input class="form-control mr-sm-2 " type="text" placeholder="Rechercher">
+		     <button class="btn btn-color" type="submit"><i class="fas fa-search  text-white"></i></button>
+		   </form>
 
 
 
-<nav class="navbar navbar-expand-lg  ">
-        <div class="container-fluid">
+			 <div class="btn-group float-sm-right float-md-right float-lg-righ">
+			  <button type="button" class="btn btn-color "><i class="fa fa-user  text-white" ></i></button>
+			  <button type="button" class="btn btn-color "><i class="fa fa-shopping-cart text-white " ></i></button>
+			  <button type="button" class="btn btn-color "><i class="fa fa-heart  text-white" ></i></button>
+			</div>
 
-          <div class="collapse navbar-collapse  justify-content-center font-weight-bold" id="main_nav">
-            <ul class="navbar-nav ">
-             <li class="nav-item dropdown">
-                     <a class="nav-link dropdown-toggle " href="" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ordinateur</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown07">
-                    <a class="dropdown-item" href="#">Ordinateur portable</a>
-                    <a class="dropdown-item" href="#">Ordinateur fixe</a>
-                    <a class="dropdown-item" href="#">Apple</a>
+		</div>
+	  </div>
+	</nav>
 
 
-             <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Son</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown07">
-                    <a class="dropdown-item" href="#">Son numérique</a>
-                    <a class="dropdown-item" href="#">Casque</a>
-                    <a class="dropdown-item" href="#">Ensemble bluetooth</a>
 
-
-             <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Périphériques</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown07">
-                    <a class="dropdown-item" href="#">Ecran pc </a>
-                    <a class="dropdown-item" href="#">Claviers souris</a>
-                    <a class="dropdown-item" href="#">Imprimantes</a>
-                    <a class="dropdown-item" href="#">Clé usb</a>
-                    <a class="dropdown-item" href="#">Disque dur</a>
-                    <a class="dropdown-item" href="#">Onduleur</a>
-
-
-                    <li class="nav-item">
-                            <a class="nav-link" href="#">Besoin d'aide</a>
-                          </li>
-
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      </header>
-
-
-      <div class="jumbotron jumbotron-fluid text-center " style=" padding-bottom:0; padding-top:20px">
-        <div class="container-fluid">
-
-  <div class="row">
-    <div class="col-sm-6">
-
-    <a href="#" class="nav-link "><p>Qui sommes nous ? </p> </a>
-    <a href="#" class="nav-link"> <p>Mention légales</p>  </a>
-    <a href="#"  class="nav-link"><p>Cookies</p> </a>
-    </div>
-    <div class="col-sm-6">
-
-    <a href="#" class="nav-link"><p> FAQ</p> </a>
-    <a href="#" class="nav-link"> <p>Contactez nous</p> </a>
-    <a href="#" class="nav-link"> <p> Newsletter </p></a>
-
-    </div>
-
-  </div>
-</div>
-</div>
 </div>
