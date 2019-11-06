@@ -7,8 +7,8 @@ class Commentaire{
     private $idCommentaire;
     private $textCommentaire;
     private $dateCommentaire;
-    private $idUser;
-    private $idPriduit;
+    private $idUsers;
+    private $idProduit;
 
     //method
 
@@ -77,42 +77,45 @@ class Commentaire{
         return $this;
     }
 
+
+
+
     /**
-     * Get the value of idUser
+     * Get the value of idUsers
      */ 
-    public function getIdUser()
+    public function getIdUsers()
     {
-        return $this->idUser;
+        return $this->idUsers;
     }
 
     /**
-     * Set the value of idUser
+     * Set the value of idUsers
      *
      * @return  self
      */ 
-    public function setIdUser($idUser)
+    public function setIdUsers($idUsers)
     {
-        $this->idUser = $idUser;
+        $this->idUsers = $idUsers;
 
         return $this;
     }
 
     /**
-     * Get the value of idPriduit
+     * Get the value of idProduit
      */ 
-    public function getIdPriduit()
+    public function getIdProduit()
     {
-        return $this->idPriduit;
+        return $this->idProduit;
     }
 
     /**
-     * Set the value of idPriduit
+     * Set the value of idProduit
      *
      * @return  self
      */ 
-    public function setIdPriduit($idPriduit)
+    public function setIdProduit($idProduit)
     {
-        $this->idPriduit = $idPriduit;
+        $this->idProduit = $idProduit;
 
         return $this;
     }
