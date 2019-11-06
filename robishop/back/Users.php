@@ -18,6 +18,8 @@ class Users{
     private $pseudoUsers;
     private $motDePasseUsers;
     private $adminUsers;
+    private $dateJeuUsers;
+    private $idPromotion;
     
 
 
@@ -297,6 +299,46 @@ class Users{
     public function setAdminUsers($adminUsers)
     {
         $this->adminUsers = $adminUsers;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of dateJeuUsers
+     */ 
+    public function getDateJeuUsers()
+    {
+        return $this->dateJeuUsers;
+    }
+
+    /**
+     * Set the value of dateJeuUsers
+     *
+     * @return  self
+     */ 
+    public function setDateJeuUsers($dateJeuUsers)
+    {
+        $this->dateJeuUsers = $dateJeuUsers;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of idPromotion
+     */ 
+    public function getIdPromotion()
+    {
+        return $this->idPromotion;
+    }
+
+    /**
+     * Set the value of idPromotion
+     *
+     * @return  self
+     */ 
+    public function setIdPromotion($idPromotion)
+    {
+        $this->idPromotion = $idPromotion;
 
         return $this;
     }
