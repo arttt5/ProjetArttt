@@ -7,6 +7,7 @@ class Connexion{
     private $idConnex;
     private $dateConnex;
     private $ipConnex;
+    private $idUsers;
 
     
 
@@ -67,6 +68,26 @@ class Connexion{
     public function setIpConnex($ipConnex)
     {
         $this->ipConnex = $ipConnex;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of idUsers
+     */ 
+    public function getIdUsers()
+    {
+        return $this->idUsers;
+    }
+
+    /**
+     * Set the value of idUsers
+     *
+     * @return  self
+     */ 
+    public function setIdUsers($idUsers)
+    {
+        $this->idUsers = $idUsers;
 
         return $this;
     }
