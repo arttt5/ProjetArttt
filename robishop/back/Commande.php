@@ -3,10 +3,8 @@
 class Commande{
 
     // Attribut
-
-    private $idFacture;
+    private $idCommande;
     private $idUsers;
-    private $idProduit;
 
     private $dateCommande;
     private $montantCommande;
@@ -15,7 +13,6 @@ class Commande{
     private $livre;
     private $modeLivraison;
     private $fraisLivraison;
-    private $quantiteProduitCommande;
 
 
     //method
@@ -25,25 +22,7 @@ class Commande{
 
 
 
-    /**
-     * Get the value of idFacture
-     */ 
-    public function getIdFacture()
-    {
-        return $this->idFacture;
-    }
-
-    /**
-     * Set the value of idFacture
-     *
-     * @return  self
-     */ 
-    public function setIdFacture($idFacture)
-    {
-        $this->idFacture = $idFacture;
-
-        return $this;
-    }
+ 
 
     /**
      * Get the value of idUsers
@@ -65,25 +44,7 @@ class Commande{
         return $this;
     }
 
-    /**
-     * Get the value of idProduit
-     */ 
-    public function getIdProduit()
-    {
-        return $this->idProduit;
-    }
-
-    /**
-     * Set the value of idProduit
-     *
-     * @return  self
-     */ 
-    public function setIdProduit($idProduit)
-    {
-        $this->idProduit = $idProduit;
-
-        return $this;
-    }
+ 
 
     /**
      * Get the value of dateCommande
@@ -225,22 +186,24 @@ class Commande{
         return $this;
     }
 
+   
+
     /**
-     * Get the value of quantiteProduitCommande
+     * Get the value of idCommande
      */ 
-    public function getQuantiteProduitCommande()
+    public function getIdCommande()
     {
-        return $this->quantiteProduitCommande;
+        return $this->idCommande;
     }
 
     /**
-     * Set the value of quantiteProduitCommande
+     * Set the value of idCommande
      *
      * @return  self
      */ 
-    public function setQuantiteProduitCommande($quantiteProduitCommande)
+    public function setIdCommande($idCommande)
     {
-        $this->quantiteProduitCommande = $quantiteProduitCommande;
+        $this->idCommande = $idCommande;
 
         return $this;
     }
